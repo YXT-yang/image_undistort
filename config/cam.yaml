@@ -1,0 +1,19 @@
+common:
+  image_out_scale: 2
+  # image_out_topic: "/cam_pinhole_equi_1"
+  image_out_topic: "/cam_pinhole_equi_2"
+  # image_out_topic: "/cam_omni_radtan_1"
+  # image_out_topic: "/cam_omni_radtan_5"
+  # image_out_topic: "/cam_omni_radtan_8"
+  image_topic: "/image/color/compressed"
+  bag_path: "/home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/data/CoSLAM.bag"
+
+  # # 第一种相机模型
+  out_path: "/home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/data/CoSLAM_pinhole_equi.bag"
+  image_yaml_path: "/home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/config/camera_models/kannala_brandt_pinhole_equi.yaml"
+  camera_model_type: KANNALA_BRANDT
+
+  # # 第二种相机模型 
+  # out_path: "/home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/data/camundistort_omni_radtan.bag"
+  # image_yaml_path: "/home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/config/camera_models/mei_omni_radtan.yaml"
+  # camera_model_type: MEI
