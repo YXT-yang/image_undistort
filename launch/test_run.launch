@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find image_undistort)/config/undistorted.yaml" />
+    <node pkg="image_undistort" type="image_undistort_node" name="undistort_work" />
+</launch>

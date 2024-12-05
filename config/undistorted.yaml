@@ -1,0 +1,15 @@
+common:
+  topic_i_image: /cam_1
+  topic_o_image: /cam_undistorted
+  
+  bag_i_file: /media/whu/YXTSSD/06-data/2024-12-04-zlz/02-camera_imu_calib/02-input_data/camout.bag
+  bag_o_file: /home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/data/CoSLAM_pinhole_equi.bag
+
+  model_i_type: KANNALA_BRANDT
+  model_i_file: /home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/config/camera_models/00_model_i_put.yaml
+  model_o_type: PINHOLE
+  model_o_file: /home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/config/camera_models/00_model_o_put.yaml
+
+  image_o_path: /home/whu/ThirdLib/MASS/Camera_Undistort/src/undistort/result/image
+  image_o_star_rate: 0.1
+  image_o_stop_rate: 0.2
